@@ -67,8 +67,8 @@ const services = [
     icon: backend,
   },
   {
-    title: "Technical Product Manager",
-    icon: creator,
+    title: "Music Producer",
+    icon: ableton,
   },
 ];
 
@@ -138,10 +138,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "Sept 2010 - Nov 2015",
     points: [
-      "Manage Customer Service projects for the Amazon.com website.",
-      "Manage a wide range of stakeholders including business owners, product managers, and developers.",
-      "Organize and led weekly SCRUM ceremonies.",
-      "Suporting Marketing campaigns and other business initiatives.",
+      "Played a critical role in ensuring the platform's integrity and user safety by implementing robust trust and safety measures.",
+      "Vetted SoundCloud Premier, saving the company tens of thousands of dollars monthly.",
+      "Handled complex tickets involving collaboration with government agencies, including the FBI.",
+      "Bridged the gap between the Trust and Safety team and the surrounding tech team.",
+      "Demonstrated exceptional problem-solving skills for intricate trust and safety challenges.",
+      "Received accolades for professionalism, dedication, and commitment to a secure environment.",
     ],
   },
   {

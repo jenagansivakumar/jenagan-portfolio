@@ -47,14 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        For the past four years, I've been diving into the exciting realm of web
-        development, sharpening my skills in TypeScript, React, Node.js,
-        Three.js, Framer Motion and Next.js. Lately, I've caught the Solidity
-        and Rust fever, fueling my passion to unlock their full potential. My
-        ultimate mission is to use my Ninja Tech skills to build a better,
-        decentralized future, empowering individuals and communities alike. If
-        you're looking for a developer with a creative edge and a genuine
-        passion for making a difference, you've found it here!
+        Having recently graduated as a full stack developer from Spiced Academy,
+        I've delved into the exhilarating world of web development, sharpening
+        my expertise in TypeScript, React, Node.js, Three.js, Framer Motion, and
+        Next.js. Lately, I've been captivated by the allure of Solidity and
+        Rust, igniting my passion to unlock their full potential. My ultimate
+        mission is to utilize my Ninja Tech skills in constructing a
+        decentralized future that empowers individuals and communities alike. If
+        you're seeking a developer with a creative edge and an authentic drive
+        to make a difference, your search ends here!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
