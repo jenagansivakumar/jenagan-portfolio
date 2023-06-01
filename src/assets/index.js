@@ -26,6 +26,8 @@ import soundcloud from "./company/soundcloud.png";
 import amazon from "./company/amazon.png";
 import home from "./company/home.png";
 import spiced from "./company/spiced.png";
+import ableton from "./company/ableton.png";
+import jenaround from "./company/jenaround.png";
 
 import kryptr from "./kryptr.png";
 import smartcontract from "./smartcontract.png";
@@ -63,4 +65,6 @@ export {
   decentrafund,
   spiced,
   cardgame,
+  ableton,
+  jenaround,
 };

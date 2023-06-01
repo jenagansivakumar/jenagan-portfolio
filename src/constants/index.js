@@ -26,6 +26,7 @@ import {
   spiced,
   cardgame,
   ableton,
+  jenaround,
 } from "../assets";
 
 import {
@@ -124,8 +125,8 @@ const technologies = [
   },
 
   {
-    name: "docker",
-    icon: docker,
+    name: "my face",
+    icon: jenaround,
   },
 ];
 
