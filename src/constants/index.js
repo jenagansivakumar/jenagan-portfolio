@@ -1,3 +1,4 @@
+import { s } from "maath/dist/misc-7d870b3c.esm";
 import {
   mobile,
   backend,
@@ -14,19 +15,19 @@ import {
   figma,
   docker,
   soundcloud,
-  kryptr,
   threejs,
   amazon,
   home,
   kick,
   rust,
   solidity,
-  smartcontract,
-  decentrafund,
   spiced,
-  cardgame,
   ableton,
   jenaround,
+  artgallery,
+  tourio,
+  portfolio,
+  lotr,
 } from "../assets";
 
 import {
@@ -58,10 +59,7 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "Solution Designer",
-    icon: mobile,
-  },
+
   {
     title: "Backend Developer",
     icon: backend,
@@ -132,11 +130,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Trust & Safety ",
-    company_name: "SoundCloud",
+    title: "Full Stack Web Developer",
+    company_name: "Spiced Academy",
     icon: spiced,
     iconBg: "#383E56",
-    date: "Sept 2010 - Nov 2015",
+    date: "March 2023 - June 2023",
+    points: [
+      "JavaScript: I acquired a solid foundation in JavaScript, the backbone of web development. I can leverage its powerful features to create interactive and dynamic web applications, handle events, manipulate the DOM, and perform asynchronous operations.",
+      "Next.js: I gained a deep understanding of Next.js, a popular React framework that allows for server-side rendering and efficient client-side navigation. I can now build dynamic and high-performance web applications using Next.js.",
+      "React: I learned React, a powerful JavaScript library for building user interfaces. I now have the skills to create reusable components, manage application state efficiently, and implement a virtual DOM for optimized rendering.",
+      "Throughout the bootcamp, I became proficient in CSS and HTML, which are essential languages for web development. I can now structure and style web pages effectively, ensuring proper layout, responsiveness, and visual appeal.",
+      "MongoDB: The bootcamp also covered MongoDB, a popular NoSQL database. I learned how to design and interact with databases using MongoDB's query language. This knowledge enables me to store, retrieve, and manipulate data in a flexible and scalable manner, which is crucial for building robust full-stack applications.",
+    ],
+  },
+  {
+    title: "Trust & Safety ",
+    company_name: "SoundCloud",
+    icon: soundcloud,
+    iconBg: "#383E56",
+    date: "Jan 2020 - Jan 2023",
     points: [
       "Played a critical role in ensuring the platform's integrity and user safety by implementing robust trust and safety measures.",
       "Vetted SoundCloud Premier, saving the company tens of thousands of dollars monthly.",
@@ -147,56 +159,17 @@ const experiences = [
     ],
   },
   {
-    title: "Sr Project Manager",
+    title: "Community Support ",
     company_name: "SoundCloud",
     icon: soundcloud,
     iconBg: "#383E56",
-    date: "June 2017 - Oct 2018",
+    date: "May 2017 - Jan 2020",
     points: [
-      "Develop bussines case and project plan for new project development.",
-      "Develop an operational team as well as the workflow, KPIs and the whole operation of the team from scratch.",
-      "Analysing the metadata of the catalogue content and assuring its adequate distribution was the team's main function, as well as cleaning up the catalog and verifying the catalogue from possible copy rights infringements.",
-      "Learn SQL in order to write queries and handle the team's data.",
-    ],
-  },
-  {
-    title: "React Developer",
-    company_name: "SoundCloud",
-    icon: soundcloud,
-    iconBg: "#383E56",
-    date: "Oct 2018 - Dec 2021",
-    points: [
-      "Develope and maintain the web app using React.js and other related technologies.",
-      "Collaborate with cross-functional teams including designers, product managers, and other developers to create high-quality outcomes.",
-      "Build and maintain the component library and the design system.",
-      "Participate in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Backend Developer",
-    company_name: "Aroundhome",
-    icon: home,
-    iconBg: "#383E56",
-    date: "Jan 2022 - May 2022",
-    points: [
-      "Built a tech case for a new API gateway.",
-      "Build, deploy and document the new API gateway.",
-      "Maintain and scale app infrastructure with AWS.",
-      "Develop and support the internal design system library.",
-    ],
-  },
-  {
-    title: "Technical Product Manager",
-    company_name: "KickID",
-    icon: kick,
-    iconBg: "#383E56",
-    date: "June 2022 - Present",
-    points: [
-      "Develop OKRs along with KPIs and the Product Roadmap.",
-      "Introduce and maintain Dual Track Agile Development.",
-      "Craft surveys and interviews in order to enrich the personas and create an adequate product market fit.",
-      "Extensive use of Jira and Confluence to manage the product development process.",
-      "Work closely with Tech and Design in order to refactor the whole system architecture and user facing apps.",
+      "Managed incoming support requests from users via Zendesk, ensuring that every query was effectively tracked and resolved.",
+      "Provided timely and accurate responses to user inquiries, including troubleshooting steps, explanations of product features, and solutions to technical issues.",
+      "Collaborated with the technical team to escalate complex issues and worked together to find solutions, improving the overall user experience.",
+      "Assisted in maintaining the knowledge base by documenting common user issues and their solutions, helping to streamline the support process.",
+      "Contributed to the improvement of SoundCloud's products and services by collecting and analyzing user feedback, and communicating this information to relevant teams.",
     ],
   },
 ];
@@ -204,150 +177,117 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Over numerous projects, Jenagan has been the depiction of dedication, passion and creativity all whilist achieving outcomes and objectives. If you want to bring growth to your organisation, he is definitely an asset to have on your team.",
-    name: "Camille Adrienne",
-    designation: "Chief Marketing ",
-    company: "Sellpy France",
-    image: cachetona,
+      "Jenagan is a shining example of dedication, passion, and creativity, consistently achieving outcomes and objectives across numerous projects. If you're looking to drive growth in your organization, having Jenagan on your team is an undeniable asset.   ",
+    name: "Holly Shepherdson",
+    designation: "Head of Trust & Safety",
+    company: "SoundCloud",
+    image: soundcloud,
   },
-  // {
-  //   testimonial:
-  //     "He's the coding punk you never knew you needed, but once you've tasted his distinctive blend of brilliance and cheekiness, there's no going back. Buckle up and get ready for the ride of a lifetime!",
-  //   name: "Esteban Torres",
-  //   designation: "Sr Engineering Manager",
-  //   company: "Spotify",
-  //   image: esteban,
-  // },
+
   {
     testimonial:
-      "He is a natural leader and visionary, inspiring cross-functional teams to move from ideation to high-quality outcomes. His ability to start from scratch - with keen observation, creativity, and leadership - and deliver something truly valuable is unparalleled. When working with Jenagan, fun, success and excellence are a given.",
-    name: "Gonzalo Mendoza",
-    designation: "Project Manager",
-    company: "Parity Technologies",
-    image: gonzi,
+      "Jenagan is a true standout, embodying unwavering dedication, passion, and creativity across all projects. With his exceptional abilities in achieving outcomes and objectives, he is an invaluable addition to any team looking to drive growth and excel in their endeavors.",
+
+    name: "Maria de la Plaza",
+    designation: "Head of Community Operations",
+    company: "SoundCloud",
+    image: soundcloud,
   },
-  // {
-  //   testimonial:
-  //     "Working with Jenagan has been a thrilling ride of problem solving, charisma, banter and pure creative chaos. Imagine the visionary prowess of Steve Jobs intertwined with the unapologetic flair of Dennis Rodman, all bundled up in one software engineering wunderkind.",
-  //   name: "Marc Tuduri",
-  //   designation: "Sr Backend Engineer",
-  //   company: "Grafana Labs",
-  //   image: marc,
-  // },
-  // {
-  //   testimonial:
-  //     "Genuine courious mind with a high energy style and a lot of passion for what he does which make him super fun and engaging to work with. Any team would be lucky to have him on board!",
-  //   name: "Amy Nguyen",
-  //   designation: "Backend Engineer",
-  //   company: "Spotify",
-  //   image: amy,
-  // },
+
   {
     testimonial:
       "Jenagan brings a spark to every project, fusing technical knowlegde with a contagious, offbeat energy. His unorthodox approach has turned the most mundane tasks into electrifying experiences, making work feel like a playground.",
     name: "Harold Haftsadi",
     designation: "QA",
     company: "TikTok",
-    image: harry,
+    image: soundcloud,
   },
 ];
 
 const projects = [
   {
-    name: "Kryptr",
+    name: "Portfolio",
     description:
-      "My very first dApp!(proud tear). It's a simple SPA that allows users to connect their wallets and transfer their currency to anyone anywhere anytime. Built with React, Solidity, and Tailwind.",
+      "A link to this portfolio! Built with React, Tailwind, and Three.js. and Framermotion",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "solidity",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "three.js",
         color: "pink-text-gradient",
       },
     ],
-    image: kryptr,
-    source_code_link: "https://github.com/jenagansivakumar",
+    image: portfolio,
+    source_code_link: "https://github.com/jenagansivakumar/jenagan-portfolio",
   },
   {
-    name: "PolkaFund",
+    name: "Gallery App",
     description:
-      "My very first smart contract written in Rust using the node template from Substrate for the Polkadot ecosystem. I takes a donation and distrubutes it to the selected projects.",
+      "The purpose of this app is to recreate an art gallery experience by showcasing art pieces and implementing interactive features.",
     tags: [
       {
-        name: "rust",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "substrate",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "git",
+        name: "css",
         color: "pink-text-gradient",
       },
-      {
-        name: "WIP",
-        color: "orange-text-gradient",
-      },
     ],
-    image: smartcontract,
-    source_code_link: "https://github.com/edisonabdiel/PolkaFund",
+    image: artgallery,
+    source_code_link: "https://github.com/jenagansivakumar/recap-project-5",
   },
   {
-    name: "DecentraFund",
+    name: "Tourio App",
     description:
-      "A decentralised free platform for the community to CrowdFund their favourite Web3.0/Blockchain projects with cryptocurrency.",
+      "Tourio App, the best friend of all travelers: it displays sights you want to visit and lets you edit them.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "solidity",
+        name: "next.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
-      {
-        name: "WIP",
-        color: "orange-text-gradient",
-      },
     ],
-    image: decentrafund,
-    source_code_link: "https://github.com/edisonabdiel/DecentraFund",
+    image: tourio,
+    source_code_link: "https://github.com/jenagansivakumar/recap-project-6",
   },
   {
-    name: "BattleCards",
+    name: "Lord of the Rings App",
     description:
-      "NFT battle-style card game. With a stunning design, interactive gameplay, smart wallet pairing, live interaction with smart contracts, and, most importantly, the ability to battle other players in real-time.",
+      "A very simple app about The Lord of the Rings. It displays characters and their information.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "solidity",
+        name: "next.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
-      {
-        name: "WIP",
-        color: "orange-text-gradient",
-      },
     ],
-    image: cardgame,
-    source_code_link: "https://github.com/edisonabdiel/BattleCardGame",
+    image: lotr,
+    source_code_link: "https://github.com/jenagansivakumar/lotr-app",
   },
 ];
 

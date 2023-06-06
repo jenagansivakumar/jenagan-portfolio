@@ -11,17 +11,20 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#5eeaff]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="w-1 sm:h-80 h-40 blue-gradient" />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Jenagan <span className="text-[#5eeaff]">Sivakumar</span>
+            My Name Is Jenagan <br className="sm:block hidden" />{" "}
+            <span className="text-[#5eeaff]">Sivakumar</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             <br className="sm:block hidden" />
-            Full Stack <br className="sm:block hidden" />
-            Developer <br className="sm:block hidden" />
+            I am a Full Stack Web <br className="sm:block hidden" />
+            <span className="text-[#ffffff]">
+              Developer <br className="sm:block hidden" />
+            </span>
           </p>
         </div>
       </div>
@@ -36,7 +39,7 @@ const Hero = () => {
                 y: [0, 24, 0],
               }}
               transition={{
-                duration: 1.5,
+                duration: 10.5,
                 repeat: Infinity,
                 repeatType: "loop",
               }}

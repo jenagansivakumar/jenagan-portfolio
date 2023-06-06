@@ -1,0 +1,19 @@
+.cursor-container {
+  position: relative;
+  /* Set the width and height of the container to match your needs */
+  width: 100vw;
+  height: 100vh;
+  cursor: none; /* Hide the default cursor */
+}
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px; /* Set the width of the cursor */
+  height: 40px; /* Set the height of the cursor */
+  background-image: url("../src/assets/mobile.png"); /* Replace with the path to your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: none; /* Ensure the cursor doesn't interfere with underlying elements */
+}

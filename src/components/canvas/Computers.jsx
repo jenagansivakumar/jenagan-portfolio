@@ -5,26 +5,26 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./soulless/scene.gltf");
+  const computer = useGLTF("./helmet_future/scene.gltf");
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.7} groundColor="black" />
+      <hemisphereLight intensity={0.0} groundColor="#ffffff" />
       <spotLight
-        position={[30, 25, 30]}
+        position={[20, 50, 10]}
         angle={0.12}
-        s
         penumbra={1}
-        intensity={10}
+        intensity={5}
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={2} />
+      <pointLight intensity={20} />
+      <ambientLight color="#288d9d" />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.006 : 0.013}
-        position={isMobile ? [0, -3, -2.2] : [2.89, -3.8, -1.3]}
-        rotation={[-0.15, 0.6, -0.1]}
+        scale={isMobile ? 0.006 : 2.314}
+        position={isMobile ? [0, -3, -2.2] : [4, -1, 0]}
+        rotation={[0, 0, 0]}
       />
     </mesh>
   );
@@ -70,7 +70,7 @@ const ComputersCanvas = () => {
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
+          maxPolarAngle={Math.PI / 3}
           minPolarAngle={Math.PI / 2}
         />
         <Computers isMobile={isMobile} />

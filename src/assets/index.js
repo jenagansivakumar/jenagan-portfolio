@@ -28,13 +28,13 @@ import home from "./company/home.png";
 import spiced from "./company/spiced.png";
 import ableton from "./company/ableton.png";
 import jenaround from "./company/jenaround.png";
-
-import kryptr from "./kryptr.png";
-import smartcontract from "./smartcontract.png";
-import decentrafund from "./decentrafund.png";
-import cardgame from "./cardgame.png";
+import artgallery from "../assets/artgallery.png";
+import tourio from "../assets/tourio.png";
+import portfolio from "../assets/portfolio.png";
+import lotr from "../assets/lotr.png";
 
 export {
+  artgallery,
   logo,
   backend,
   creator,
@@ -55,16 +55,15 @@ export {
   typescript,
   threejs,
   soundcloud,
-  kryptr,
   amazon,
   home,
   kick,
   rust,
   solidity,
-  smartcontract,
-  decentrafund,
   spiced,
-  cardgame,
   ableton,
   jenaround,
+  tourio,
+  portfolio,
+  lotr,
 };
